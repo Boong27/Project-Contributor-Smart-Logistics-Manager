@@ -38,7 +38,7 @@ A fullstack mini project simulating a **logistics and order management platform*
 |------|-------------|
 |![image](https://github.com/user-attachments/assets/5b5cf92e-e75a-49ea-b9f5-c6ac4d4dc658) | Home page with smart logistics branding |
 
-| ![image](https://github.com/user-attachments/assets/a1ee6e3e-2987-4445-86c4-89ca1371f9c7)  | Order processing view (Admin/Staff) |
+| ![image](https://github.com/user-attachments/assets/a1ee6e3e-2987-4445-86c4-89ca1371f9c7)| Order processing view (Admin/Staff) |
 
 ---
 
