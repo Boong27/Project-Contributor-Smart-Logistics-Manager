@@ -1,0 +1,48 @@
+<!--
+File: index.html
+Mục đích: Trang đăng nhập chính cho hệ thống Smart Hotel Manager.
+Cho phép người dùng chọn vai trò (Admin, Receptionist, Guest) để truy cập giao diện tương ứng.
+-->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>BOONG Hotel Manager – Đăng nhập</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left background section with hotel launch image -->
+    <div class="left-panel">
+      <div class="overlay">
+        <h2>Kết nối giá trị – Trải nghiệm nghỉ dưỡng đẳng cấp cùng Smart Hotel</h2>
+        <p>Đặc quyền dành riêng cho khách hàng tại hệ sinh thái thông minh – sang trọng – tiện nghi</p>
+      </div>
+    </div>
+
+    <!-- Right login section -->
+    <div class="right-panel">
+      <img src="assets/logo hotel.png" alt="Smart Hotel Logo" class="logo">
+
+      <h2>Đăng nhập hệ thống</h2>
+      <form id="login-form">
+        <input type="text" id="username" placeholder="Email hoặc tên đăng nhập">
+        <input type="password" id="password" placeholder="Mật khẩu">
+        <select id="role">
+          <option value="">Chọn vai trò</option>
+          <option value="admin">Giám đốc (Admin)</option>
+          <option value="reception">Lễ tân</option>
+          <option value="guest">Khách</option>
+        </select>
+        <div class="remember">
+          <label><input type="checkbox"> Ghi nhớ đăng nhập</label>
+          <a href="#">Quên mật khẩu?</a>
+        </div>
+        <button type="submit">ĐĂNG NHẬP</button>
+        <p class="terms">Khi đăng nhập, bạn đồng ý với <a href="#">Điều khoản</a> và <a href="#">Chính sách bảo mật</a></p>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

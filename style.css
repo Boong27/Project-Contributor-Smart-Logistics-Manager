@@ -1,0 +1,125 @@
+/* 
+File: style.css
+Mục đích: Tập trung định dạng giao diện (font, màu sắc, layout) cho toàn bộ hệ thống khách sạn.
+NOTE: Hãy đổi tên file thành style.css để trình duyệt hiểu là file CSS.
+*/
+
+
+/* ===============================
+   File: style.css.txt (to be renamed style.css)
+   Purpose: Shared styling for Smart Hotel Manager
+   Applies to: index.html, admin.html, reception.html, guest.html
+   =============================== */
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left side - background image and overlay text */
+.left-panel {
+  flex: 1;
+  background-image: url("assets/hotel launch.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  max-width: 400px;
+}
+
+.overlay h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.overlay p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Right side - login form */
+.right-panel {
+  flex: 1;
+  background-color: white;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  width: 120px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+form {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  background-color: #fbb917;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #dba600;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.terms {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.terms a {
+  color: #007BFF;
+  text-decoration: none;
+}
